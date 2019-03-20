@@ -1,0 +1,500 @@
+﻿/*
+/* 头部
+ */
+body{
+	font-family:"MicrosoftYaHei"；
+	font-size:12px;
+	color:#333333;
+	margin:0;
+	padding:0;
+}
+a{color:#000;text-decoration: none;}
+i{ 
+	font-style:normal;
+}
+.top{
+	background: #EFF1F5;
+	height: 26px;
+	font-family: MicrosoftYaHei;
+	font-size: 12px;
+	color: #666666;
+	padding-bottom: 8px;
+	padding-top: 4px;
+}
+.service{
+	padding-left: 25px;
+}
+.logo{
+	height: 66px;
+	margin:3px 0;
+	border-bottom:1px #CAD2DD solid;
+	display: flex;
+	align-items: center;
+}
+.zxc{
+	display:flex;
+	justify-content: flex-end;
+}
+.zxc a{
+	font-family: MicrosoftYaHei;
+	font-size: 12px;
+	color: #666666;
+	line-height: 16px;
+}
+.abc a{
+	font-family: MicrosoftYaHei;
+	font-size: 12px;
+	color: #666666;
+	line-height: 16px;
+}
+.zxc .color{
+	color: #043477;
+	text-decoration:none;
+}
+.abc .col{
+	color: #043477;
+	text-decoration:none;
+}
+.zxc a:hover{
+	color:#043477;
+	text-decoration:none;
+}
+.abc a:hover{
+	color:#043477;
+	text-decoration:none;
+}
+.registered{
+	padding-left: 20px;
+	text-align:right;
+}
+.logoimg{
+	height:65px;
+	cursor: pointer;
+
+}
+.logoimg img{
+	height:100%;
+}
+.selectRea{
+	width:60px;
+	height:35px;
+	display:inline-block;
+	border:none;
+	border-right:1px solid #D8290D;
+	outline:none;
+	width: auto;
+	margin-left: 5px;
+	font-family: MicrosoftYaHei;
+	font-size: 12px;
+	color: #666666;
+	line-height: 20px;
+	box-sizing: border-box;
+
+}
+.seleceRea option{
+	text-align:center;
+}
+.search{
+	/*margin:19px 0 0 0px;*/
+	padding:0;
+	border: 1px solid #D8290D;
+	display:flex;
+}
+.searchText{  
+	outline:none;
+	border:none;
+	height:35px;
+	width:100%;
+	padding-left:1em;
+
+}
+.searchSub{  
+	border:none;
+	height:35px;
+	width: 80px;
+	background: #D8290D;
+	font-family: MicrosoftYaHei;
+	font-size: 12px;
+	color: #FFF;
+	line-height: 20px;
+	/*margin:20px 0 0 5px;*/
+
+
+}
+.searchSub:hover{
+	background: #8D1A08;
+}
+.searchcolor{
+	background: #8D1A08;
+}
+.codes{
+	/*line-height: 70px;*/
+
+	text-align:right;
+}
+.code{
+	width:60px;
+	height: 60px;
+}
+.nav{
+	height: 50px;
+	font-family: PingFangSC-Medium;
+	color: #043477;
+	line-height: 50px;
+}
+.navs{
+	height:50px;
+	box-sizing: border-box;
+	padding: 0;
+}
+.navigation{
+	width:10%;
+	height:50px;
+	text-align:center;
+	display:inline-block;
+	box-sizing: border-box;
+	font-family: PingFangSC-Semibold;
+	color: #043477;
+	line-height: 50px;
+	height: 100%;
+	text-decoration:none;
+	display: inline-block;
+
+	font-size:16px;
+	font-weight:600;
+}
+
+.navigation:hover{
+	border-bottom:3px solid #cc0000;
+	/*background: #EFF1F5;*/
+
+	/*transition:all .8s;-moz-transition:all .8s;-o-transition:all .8s;-webkit-transition:all .8s;*/
+	
+}
+.navigationBorder{
+	border-bottom:3px solid #cc0000;
+	text-decoration:none;
+	color:#043477;
+}
+/*banner start*/
+.banner{
+	width:100%;
+	height:300px;
+	overflow: hidden;
+	/*display: flex;
+	align-items: center;*/
+}
+.banner img{
+	min-width:100%;
+	min-height:100%;
+}
+/* 尾部 */
+.footer{
+	clear:both;
+	background: #333333;
+	height: 170px;
+	width: 100%;
+	padding-bottom:30px;
+}
+.footerone{
+	text-align:center;
+}
+.foottext{
+	display:inline-block;
+	margin-top: 30px;
+	margin-left: 15px;
+}
+.foottext a{
+	font-family: PingFangSC-Semibold;
+	font-size: 14px;
+	color: #BBBBBB;
+	line-height: 20px;
+	text-decoration:none;
+}
+.foottext a:hover{
+	color: #FFF;
+	
+}
+.footContact{
+	font-family: PingFangSC-Regular;
+	font-size: 14px;
+	color: #BBBBBB;
+	line-height: 20px;
+	margin: 10px 0 10px 30px;
+}
+.foottwo{
+	display: flex;
+	justify-content: center;
+}
+.footthree{
+	display: flex;
+	justify-content: center;
+}
+.footversion{
+	font-family: PingFangSC-Regular;
+	font-size: 14px;
+	color: #BBBBBB;
+	line-height: 20px;
+}
+
+/*手机端*/
+.mTop{
+	display: none;
+	position: fixed;
+	z-index:101;
+	top:0;
+	left:0;
+	height:48px;
+	width:100%;
+	justify-content: space-between;
+	align-items: center;
+    background-color: rgba(2,25,72,.3);
+}
+.mNavIcon, .mMeIcon{
+	width:48px;
+	height:48px;
+	line-height: 48px;
+	text-align:center;
+}
+
+.mNavIcon img, .mMeIcon img{
+	width:30px;
+	height:30px;
+}
+.mBg{
+	display: none;
+	top:0;
+	width:100vw;
+	height:100vh;
+	background:#000;
+	opacity: 0.7;
+	z-index:998;
+	position:fixed;
+    overflow: hidden;
+}
+.mNav, .mMe{
+	display: none;
+	top:0;
+	width:320px;
+	position:fixed;
+	height:100vh;
+	background:rgba(255,255,255,1);
+	z-index: 999;
+}
+.mMe{
+	top:0;
+	right:0;
+	overflow:scroll;
+}
+.mMe .zxc{
+	width:100%;
+	padding-top:88px;
+	display: block;
+}
+.mMe .zxc a{
+	width:80%;
+	margin:0 auto;
+	margin-top:20px;
+  	display: block;
+    position: relative;
+    background-color: #D8290D;
+    border: solid 1px #D8290D;
+    font-family: "Source Sans Pro",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1;
+    color: #fff;
+    padding: 10px 50px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    outline: 0;
+    overflow: visible;
+    max-width: 100%;
+    transition: color 200ms,background-color 200ms,border-color 200ms;
+}
+.mWd{
+	text-align:center;
+	margin-top:20px;
+}
+.mWd .title{
+	line-height:50px;
+}
+.mNav{
+	 overflow:scroll;
+}
+.mNavClose, .mMeClose{
+	position: absolute;
+	cursor: pointer;
+	top:0;
+	width:48px;
+	height:48px;
+	text-align:center;
+	line-height:48px;
+	color:#D8290D;
+	font-size:35px;
+	z-index: 101;
+}
+.mMeClose{
+	right:0;
+}
+.mNavClose{
+	left:0;
+}
+.mLogo{
+	width:100%;
+	text-align:center;
+	padding-top:48px;
+	margin-bottom:40px;
+}
+.mLogo img{
+	width:230px;
+}
+.mSearch .searchBtn{
+	margin-top:10px;
+	width:100%;
+	height:46px;
+	margin-bottom:20px;
+}
+.mSearch .searchSub{
+	width:100%;
+	height:100%;
+	font-size:14px;
+}
+.mNavCon{
+	width:100%;
+}
+.mNavCon li{
+	width:100%;
+	border-bottom:1px solid #ccc;
+	border-left:4px solid #fff;
+	height:56px;
+	line-height:56px;
+}
+
+.mNavCon li a{
+	height:56px;
+	line-height:56px;
+}
+.mNavCon .navigationBorder{
+	border-left:4px solid #cc0000;
+}
+.mQrCode{
+	width:100%;
+}
+.mQrCode img{
+
+}
+.demand{
+	padding-left: 0;
+}
+.inlineBlock{
+	display: inline-block;
+}
+
+/*屏幕小于1200px时的样式*/
+@media only screen and (max-width:1200px ) {
+	/*.investitle span{
+		font-size: 32px;
+	}*/
+}
+/*屏幕小于772px时的样式*/
+@media only screen and (max-width:772px ) {
+	.top ,.logo, .nav{
+		display:none;
+	}
+	.banner-scroll {
+		background-size:140% 100%;
+	}
+	.mTop{
+		display:flex;
+	}
+	.projectImg{
+		width: 45%;
+	}
+	#ppt{
+		height:240px;
+		padding-bottom:10px;
+	}
+	#mpc{
+		height:240px;
+	}
+	#mpc div{
+		height:100%;
+	}
+
+	#mpc div a{
+		width:100%;
+	}
+	#mpc div a img{
+		width:100%;
+		height:100%;
+	}
+	#ppt ul{
+		height:100%;
+	}
+	#ppt ul li{
+		text-align:center;
+		height:24%;
+	}
+	.foottwo{
+		display:block;
+	}
+	.footers{
+		display: none;
+	}
+	.footContact{
+		text-align:center;
+	}
+	/*.
+	 span{
+		font-size: 26px;
+	}*/
+	.entertit{
+		padding-left: 0;
+	}
+	.enterborder{
+		border:none;
+	}
+	.entersub{
+		/*width: 100%;*/
+	}
+	.entborder{
+		border: none;
+	}
+	.entersubmit{
+		margin-bottom: 20px;
+	}
+	.requprojectImg{
+		width: 49%;
+	}
+	.enterintroduce{
+		padding-right: 0;
+	}
+	.indea{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.indedate{
+		padding-left: 20px;
+	}
+	/*.loginborder{
+		position: absolute;
+		left: 18%;
+		top:55px;
+	
+	}*/
+	.ban{
+		position:relative;
+
+	}
+	.loginban{
+		display: none;
+	}
+	.foot{
+		display: none;
+	}
+	.invesline{
+	
+	}
+}
